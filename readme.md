@@ -1,26 +1,50 @@
-# KSR Electrical Services — Website Package
+# KSR Electrical Services — Business Website
 
-Static responsive website built with HTML, CSS, and vanilla JavaScript.
+A responsive business website developed for KSR Electrical Services to present its electrical contracting services, showcase project photos, and make it easier for customers to get in touch.
 
-## Included
-- Responsive navigation and mobile layout
-- Company introduction and service list
+🌐 **Live Website:** https://ksrelectricalservice.netlify.app  
+💻 **Repository:** https://github.com/saivardhan-72638/ksrelectricalservice
+
+## Features
+
+- Responsive layout for desktop and mobile devices
+- Navigation and company service sections
 - Project gallery with 17 selected photos
-- Working filters for Completed Buildings, Commercial Buildings, Residential Apartments, and Ongoing Construction
-- In-page photo viewer with previous/next navigation for visible gallery items, close, Escape, arrow-key controls, and keyboard focus handling
-- Click-to-call, WhatsApp, and email links
-- Contact links for phone, WhatsApp, and email (the client should confirm that the supplied email address is active before launch)
+- Gallery filters for completed buildings, commercial buildings, residential apartments, and ongoing construction
+- Interactive photo viewer with previous/next navigation and keyboard controls
+- Click-to-call, WhatsApp, and email contact links
+- Office address and Google Maps link
 
-## Local preview
-Extract this ZIP and open `ksr-electrical-website/index.html` in a browser. The gallery photos are included locally in `assets/projects/`.
+## Technologies Used
 
-## Before publishing
-- Confirm that all 17 displayed photos are approved for use and accurately represent KSR work, including the five newly added construction-site photos.
-- Confirm that the business phone, email `ksreletricalservice@gmail.com`, address, and service descriptions are accurate with the client before launch.
-- Confirm that the watermarked image `assets/projects/project-12.jpg` is approved for use; replace it with an approved clean version if available.
-- Verify that each portfolio image represents a KSR project and that the project categories/statuses are accurate.
-- Test the website on desktop and mobile, verify each gallery filter and photo viewer, and test every contact link on a real device before launch.
-- Deploy the folder to Netlify and configure the client's domain and HTTPS if needed.
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Netlify for deployment
+- Google Search Console for website indexing requests
 
-## Current scope
-The enquiry form and “Request a Quote” hero button have been removed as requested. The Contact section still includes phone, WhatsApp, email, and office address. No enquiry form submissions are collected by this version.
+## Local Setup
+
+1. Clone or download this repository.
+2. Open the project folder.
+3. Open `index.html` in your browser.
+
+The project photos are stored locally in `assets/projects/`.
+
+## Project Notes
+
+- This is a static website; it does not use a backend or database.
+- The current version does not collect enquiry form submissions.
+- The website includes phone, WhatsApp, email, and address details.
+- Google indexing has been requested, but search visibility and indexing are controlled by Google.
+
+## Before Making Changes or Republishing
+
+- Confirm that all project photos are approved for public use and accurately represent the business's work.
+- Verify the phone number, email address, office address, and service descriptions.
+- Replace any unapproved watermarked images.
+- Test the navigation, gallery filters, photo viewer, and contact links on desktop and mobile devices.
+
+## Author
+
+Developed as a practical business website project to gain experience in responsive web development and deployment.
